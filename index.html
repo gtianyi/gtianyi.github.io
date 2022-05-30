@@ -1071,11 +1071,10 @@
               <p>
                   test time <py-script>
 from datetime import datetime
-dt_start = datetime(2022,2,7,14,28)
-now = datetime.now()
-tdelta = now - dt_start 
-tmonth=tdelta.months
-print(f"{tmonth} months")
+start = datetime(2022,2,7,14,28)
+end = datetime.now()
+diff_month = (end.year - start.year) * 12 + (end.month  - start.month )
+print(f"{diff_month} months")
     </py-script>
                   </p>
             </Div>
