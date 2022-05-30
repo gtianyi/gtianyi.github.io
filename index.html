@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Tianyi Gu's Home Page</title>
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 </head>
 
 <body style="background-color:powderblue;">
@@ -72,7 +73,13 @@
             <div class="p1 Experience">
               <hr>
               <h2>Experience</h2>
-              <h3>Argo AI</h3>
+              <h3>Argo AI <span
+                  style="font-weight:normal;float: right;"> Software
+                  Engineer | <py-script>
+from datetime import datetime
+now = datetime.now()
+now.strftime("%m/%d/%Y, %H:%M:%S")
+    </py-script> </span></h3>
               <p>I have been a software engineer in the behavior planning
                 team at <a href="https://www.argo.ai/"
                   target="_blank">Argo AI</a> since
