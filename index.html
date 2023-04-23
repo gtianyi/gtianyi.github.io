@@ -101,11 +101,21 @@
                 feature was integrated into the next-generation planner.
               </p>
               <!--<li>-->
-              <!--crosswalk intersection constraint.-->
+              <!--lane router trim - incremental lane router.-->
+              <!--For lane router long term development, instead of always plan toward destination in each cycle, maybe we can develop a incremental lane router that only plan for fixed-lookahead number of road blocks. So the size of lane graph is bounded thus avoid such latency issue. We might have similar issue, for example, if we plan a very very long ride from Pittsburgh to Boston. Just a thought,  not sure if we consider this before.-->
               <!--</li>-->
               <!--<li>-->
-              <!--build a rule-based and learning-based action desirability classifier.-->
+              <!--lane router - anchor lane and adjacent lane swap-->
               <!--</li>-->
+              <!--<li>-->
+              <!--ODD Ranker, extract ODD, analyze ODD-->
+              <!--</li>-->
+              <!--route engine, stitch route together for testing-->
+              <!--</li>-->
+              <!--geo nets, middle layer map attributes for enable/disable
+              lanes for router, constraint on static ODD, dynamic ODD etc-->
+              <!--</li>-->
+
 
               <h3>Argo AI <span style="font-weight:normal;float: right;">
                   Software Engineer | 10 months
