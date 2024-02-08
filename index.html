@@ -87,12 +87,16 @@
                 from datetime import datetime
                 start = datetime(2023,1,17,14,28)
                 end = datetime.now()
-                diff_month = (end.year - start.year) * 12 + (end.month -
-                start.month )
+                diff_year = end.year - start.year
+                diff_month = end.month - start.month
+                <!--diff_month = (end.year - start.year) * 12 + (end.month --->
+                <!--start.month )-->
+                pyscript.write('diffYear', diff_year)
                 pyscript.write('diffMonth', diff_month)
               </py-script>
               <h3>Motional <span style="font-weight:normal;float: right;">
-                  Senior Software Engineer | <label id="diffMonth"></label>
+                  Senior Software Engineer | <label id="diffYear"></label>
+                  year <label id="diffMonth"></label>
                   months
                 </span></h3>
               <p>I have been a senior software engineer and expansion team
