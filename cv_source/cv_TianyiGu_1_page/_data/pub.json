@@ -1,0 +1,27 @@
+[
+    {
+        "authors": "Ethan Schneider, Jingkai Chen, Tianyi Gu, Kunlei Lian, Seth Hutchinson, and Sonia Chernova",
+        "title": "Many-to-Many Multi-Agent Pickup and Delivery.",
+        "venue": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA-26), 2026."
+    },
+    {
+        "authors": "Maximilian Fickert, Tianyi Gu, and Wheeler Ruml",
+        "title": "New Results in Bounded-Suboptimal Search.",
+        "venue": "Proceedings of the Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI-22), 2022."
+    },
+    {
+        "authors": "Tianyi Gu, Wheeler Ruml, Shahaf Shperberg, Eyal Shlomo Shimony, and Erez Karpas",
+        "title": "When to Commit to an Action in Online Planning and Search.",
+        "venue": "Proceedings of the Symposium on Combinatorial Search (SoCS-22), 2022."
+    },
+    {
+        "authors": "Sajay Arthanat, Momotaz Begum, Tianyi Gu, Dain P. LaRoche, Dongpeng Xu, and Naiqian Zhang",
+        "title": "Caregiver Perspectives on A Smart Home-based Socially Assistive Robot for Individuals with Alzheimer's Disease and Related Dementia.",
+        "venue": "Disability and Rehabilitation: Assistive Technology, 15(7), pp. 789-798, 2020."
+    },
+    {
+        "authors": "Scott Kiesel, Tianyi Gu, Wheeler Ruml",
+        "title": "An Effort Bias for Sampling-based Motion Planning.",
+        "venue": "Proceedings of the IEEE/RSJ Conference on Intelligent Robots and Systems (IROS), 2017."
+    }
+]

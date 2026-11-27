@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Tianyi Gu",
+        "website": "https://gtianyi.github.io/",
+        "email": "gtianyi.cs at gmail.com",
+        "phone": "+1-347-509-8765",
+        "research_interests": "Heuristic search, motion planning, robotics, multi-agent planning, metareasoning.",
+        "citizenship": "China. U.S.A visa: H1-b.",
+        "languages": [
+            {"language": "C++"},
+            {"language": "Python"},
+            {"language": "C\\#"}
+        ],
+        "technologies": [
+            {"technology": "Linux"},
+            {"technology": "Git"},
+            {"technology": "Vim"},
+            {"technology": "tmux"}
+        ]
+    }
+]

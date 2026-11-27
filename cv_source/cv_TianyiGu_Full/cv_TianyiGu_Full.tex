@@ -1,0 +1,328 @@
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+% res.cls uses "margin" as a layout flag. Current geometry treats that
+% unused class option as a key and errors unless it is removed first.
+\makeatletter
+\@expandtwoargs\@removeelement{margin}\@classoptionslist\@classoptionslist
+\makeatother
+\usepackage[margin=0.65in]{geometry}
+\geometry{top=3.1cm, includehead, includefoot}
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{url}
+\setlength{\textwidth}{5.8in} % Text width of the document
+\setlength{\sectionwidth}{1in} % section width of the document
+\begin{document}
+
+%-----------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-----------------------------------------------------------------------
+
+% Your name at the top
+\moveleft.5\hoffset\centerline{\large\bf Tianyi Gu}
+\moveleft.5\hoffset\centerline{} 
+%\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+% Your address
+% \moveleft.5\hoffset\centerline{Department of Computer Science} 
+% \moveleft.5\hoffset\centerline{University of New Hampshire}
+% \moveleft.5\hoffset\centerline{33 Academic Way, Durham, NH 03824-2619 USA}
+\moveleft.5\hoffset\centerline{15 Elm St, Apt 4, Derry, NH 03038 USA}
+\moveleft.5\hoffset\centerline{gtianyi.cs at gmail.com, +1-347-509-8765}
+% \moveleft.5\hoffset\centerline{\url{https://gtianyi.github.io/}}
+% \moveleft.5\hoffset\centerline{\url{https://github.com/gtianyi}}
+%-----------------------------------------------------------------------
+
+\begin{resume}
+
+%-----------------------------------------------------------------------
+%	Research Interests
+%-----------------------------------------------------------------------
+ 
+\section{Research\\ Interests}  
+
+Heuristic search, online planning, multi-agent planning, motion planning, robotics, operations research\\
+%-----------------------------------------------------------------------
+%	EDUCATION SECTION
+%-----------------------------------------------------------------------
+\section{Education}
+
+{\sc University of New Hampshire} \hfill Ph.D. in Computer Science, 2021\\
+Dissertation: {\sl Metareasoning for Heuristic Search Using Uncertainty.} Advisor: Prof.\ Wheeler Ruml.\\~\\
+% Relevant coursework (GPA: 3.9/4.0):\\
+% \-\hspace{0.5cm}Planning for Robots (Prof.\ Wheeler Ruml)\\
+% \-\hspace{0.5cm}Topics in Reinforcement Learning (Prof.\ Marek Petrik)\\
+% \-\hspace{0.5cm}Probabilistic AI and Machine Learning (Prof.\ Christopher Amato)\\
+% \-\hspace{0.5cm}Topics in Multi-Agent and Multi-Robot Systems (Prof.\ Christopher Amato)\\
+% \-\hspace{0.5cm}Introduction to Artificial Intelligence
+% (Prof.\ Wheeler Ruml)\\
+% \-\hspace{0.5cm}Introduction to Mobile Robotics
+% (Prof.\ Momotaz Begum)\\
+% \-\hspace{0.5cm}Introduction to Information Retrieval (Prof.\ Laura Dietz)\\~\\
+{\sc Shanghai Maritime University} \hfill M.E. in Logistics Engineering, 2012\\
+Thesis: {\sl Planning for Yard Systems in Container
+  Terminals using Genetic Mechanism-based Approach.}
+Advisor: Prof.\ Chengji Liang. \\~\\
+{\sc Shanghai Maritime University} \hfill B.E. in Logistics Engineering, 2010\\
+Thesis: {\sl SAIC Global Powertrain Development Process Lean
+  Analysis.} Advisor: Prof.\ Ziqi Xu.
+
+%-----------------------------------------------------------------------
+%	Awards
+%-----------------------------------------------------------------------
+
+% \section{Awards}
+
+% National Science Foundation Doctoral Consortium Travel
+% Award \hfill 2017\\
+% Shanghai Outstanding Graduate \hfill 2012\\
+% Shanghai Maritime University Outstanding Graduate \hfill 2012\\
+% China National Graduate Mathematic Contest in Modeling: 2nd Place \hfill 2011\\
+% Shanghai Maritime University Excellent Student Scholarship:
+% 1st Place \hfill 2007
+
+
+
+%-----------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%-----------------------------------------------------------------------
+ 
+\section{Professional\\Experience}
+
+{\sc Symbotic}\\
+{\sl Staff Software Engineer} \hfill January 2026--Current
+\begin{itemize}\sloppy
+	\item Designed and implemented charge-aware routing for warehouse robot fleets, replacing interruption-based e-charge tasks with a planning-based strategy that keeps multi-agent pickup and delivery energy-safe by charging on floor chargers during task dwell and traffic waits, and sends a bot to a charger only when uncertainty makes energy use deviate from the original plan.
+\end{itemize}
+{\sl Senior Software Engineer} \hfill September 2024--December 2025
+\begin{itemize}
+	\item Member of the routing team that designs, develops, and qualifies software solutions for robotic warehouse automation.
+    \item The main contributor to the TSR Executive project,  designed and implemented a concurrent planning and execution framework for robotic fleets, resulting in a 50$+\%$ increase in throughput for high-volume pick-and-place tasks across 21 Walmart distribution centers nationwide, significantly impacting the efficiency of modern supply chains.  
+\end{itemize}
+
+{\sc Motional}\\
+{\sl Senior Software Engineer} \hfill Jan 2023--Jul 2024
+\begin{itemize}
+	\item Member of the motion planning and autonomy integration team that works on autonomy expansion problems to help autonomous vehicles drive in new blocks and new cities.
+\end{itemize}
+{\sl Motion Planning Research Intern} \hfill May 2020-August 2020
+\begin{itemize}
+	\item Propose and develop a learning-based approach to enhance the planner. The feature was integrated to the next generation planner for autonomous vehicles.
+\end{itemize}
+
+{\sc Argo AI}\\
+{\sl Software Engineer \MakeUppercase{\romannumeral 2}} \hfill Feb 2022--Dec 2022
+\begin{itemize}
+	\item Member of the motion planning team that design, build, test and deploy a safety--critical trajectory generator for autonomous vehicles
+\end{itemize}
+
+{\sc University of New Hampshire}\\
+{\sl Graduate Research Assistant} \hfill September 2020--December 2021
+\begin{itemize}
+\item Build theoretical foundation for online planning. Seek answers for how to plan in an uncertain environment under time pressure.
+\end{itemize}
+{\sl Graduate Teaching Assistant} \hfill September 2015--May 2020
+\begin{itemize}
+\item Involved in creating assignments, exams and
+		conducting recitation sessions for Algorithms (C), Intro to AI, Intro to
+            Computer Science (Java, Python), Intro to Software Engineering, Intro to
+		Computer Security, Database Programming (C\#), Scripting Languages (Shell).
+\end{itemize}
+
+{\sc Congnitive Assistive Robotics Lab}\\
+{\sl Robotics Intern} \hfill May 2019-August 2019
+\begin{itemize}
+	\item Build a smart home based service robot framework that
+					can provide real-time Alzheimer's disease care.
+	\item Build an AI planner on top of ROSPlan that performs
+					real-time online task planning.
+\end{itemize}
+
+{\sc Realtime Robotics}\\
+{\sl Robotics Intern} \hfill May 2018-August 2018
+\begin{itemize}
+\item Build a real-time planner for an autonomous vehicle that is
+		able to safely drive in a crowded urban area.
+\item Build a real-time planning framework that enabled handling a 
+		dynamic world online.
+\item Build a simulation environment to demonstrate flagship product
+		to major new customers.
+\end{itemize}
+
+{\sc Shanghai International Port Group}\\
+{\sl Software Development Engineer} \hfill July 2012-August 2015
+\begin{itemize}
+\item Member of the team that design, build, and deploy a new
+  automated container terminal operations management system, including
+  algorithm development for the  crane allocation and scheduling
+  module and the financial module.
+\item Help launch previous terminal operating management system. 
+\end{itemize}
+
+%-----------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%-----------------------------------------------------------------------
+
+\section{Skills} 
+
+{\sl Programming Languages:} C$\#$, C++, Python. \\
+{\sl Version control tool:} Git
+
+
+%-----------------------------------------------------------------------
+%	Publications
+%-----------------------------------------------------------------------
+% \section{Manuscripts}
+
+% Scott Kiesel, Tianyi Gu, and Wheeler Ruml, ``An Effort Bias for
+% Sampling-based Motion Planning,'' {\sl IEEE/RSJ International
+%   Conference on Intelligent Robots and Systems (IROS
+%   2017)}, under review.
+
+%\section{In\\Preparation}
+% \section{Under\\Review}
+
+% Maximilian Fickert, Tianyi Gu, Leonhard Staut, Wheeler Ruml, Jörg Hoffmann, and Marek Petrik, ``Beliefs We Can Believe In: Replacing Assumptions with Data in Real-Time Search.'' \\~\\
+% Tianyi Gu, Naiqian Zhang, Momotaz Begum, Dongpeng Xu, Sajay Arthanat, and Dain LaRoche, ``Adaptive Software Framework for Socially Assistive Robots to Support Caregiving of Individuals with Alzheimer's Dementia.'' 
+
+\section{Refereed\\Archival\\Publications}
+Ethan Schneider, Jingkai Chen, Tianyi Gu, Kunlei Lian, Seth Hutchinson, and Sonia Chernova, ``Many-to-Many Multi-Agent Pickup and Delivery.'' {\sl Proceedings of the IEEE International Conference on Robotics and Automation (ICRA-26)}, 2026.\\~\\
+Maximilian Fickert, Tianyi Gu, and Wheeler Ruml, ``New Results in Bounded-Suboptimal Search.'' {\sl Proceedings of the Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI-22)}, 2022.\\~\\
+Tianyi Gu, Wheeler Ruml, Shahaf Shperberg, Eyal Shlomo Shimony, and Erez Karpas, ``When to Commit to an Action in Online Planning and Search.'' {\sl Proceedings of the Symposium on Combinatorial Search (SoCS-22}), 2022.\\~\\
+Maximilian Fickert, Tianyi Gu, and Wheeler Ruml, ``Bounded-Cost Search Using Estimates of Uncertainty.'' {\sl Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)}, 2021.\\~\\
+Tianyi Gu, ``Distributional Metareasoning for Heuristic Search.'' {\sl Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)}, 2021.\\~\\
+Maximilian Fickert, Tianyi Gu, Leonhard Staut, Wheeler Ruml, Joerg Hoffmann, and Marek Petrik, ``Beliefs We Can Believe In: Replacing Assumptions with Data in Real-Time Search.'' {\sl Proceedings of the Thirty-fourth AAAI Conference on Artificial Intelligence (AAAI-20)}, 2020.\\~\\
+Sajay Arthanat, Momotaz Begum, Tianyi Gu, Dain P. LaRoche, Dongpeng Xu, and Naiqian Zhang, ``Caregiver Perspectives on A Smart Home-based Socially Assistive Robot for Individuals with Alzheimer's Disease and Related Dementia.'' {\sl Disability and Rehabilitation: Assistive Technology}, 15(7), pp. 789-798, 2020.\\~\\
+Reazul H. Russel, Tianyi Gu, and Marek Petrik, ``Robust Exploration
+with Tight Bayesian Plausibility Sets,'' {\sl Proceedings of the 4th
+Multidisciplinary Conference on Reinforcement Learning and Decision
+Making (RLDM)}, 2019.\\~\\
+Scott Kiesel, Tianyi Gu, Wheeler Ruml, ``An Effort Bias for
+Sampling-based Motion Planning,'' {\sl Proceedings of the IEEE/RSJ Conference on
+  Intelligent Robots and Systems (IROS)}, 2017.\\~\\
+Yi Ding, Xujun Wei, Yang Yang, and Tianyi Gu, 
+``Decision-support-based automatic container sequencing system using
+heuristic rules,'' {\sl Cluster Computing}, 20(1), pp. 239-252, 2017.\\~\\
+Chengji Liang, Miaomiao Li, Bo Lu, Tianyi Gu, Jungbok Jo, and Yi Ding,
+``Dynamic Configuration of QC Allocating Problem Based on
+Multi-objective Genetic Algorithm,'' {\sl Journal of Intelligent
+  Manufacturing}, 28(3), pp. 847-855, 2017.\\~\\
+Yi Ding, Shuai Jia, Tianyi Gu, and Chung-Lun Li, ``SGICT Builds an Optimization-based System for Daily Berth Planning,'' {\sl Interfaces}, 46(4), pp. 281-296, 2016.\\~\\
+Chengji Liang, Tianyi Gu, Bo Lu, and Yi Ding, ``Genetic Mechanism-based Coupling Alogrithm for Solving Coordinated Scheduling Problems of Yard System in Container Terminals,'' {\sl Computer \& Industrial Engineering}, 89, pp. 34-42, 2015.\\~\\
+Yi Ding, Tianyi Gu, GuoLong Lin, and Chengji Liang, ``The
+Establishment and Solution of Coupling Model on Coordinated Scheduling
+of Handling Facilities in Container Terminals,'' {\sl Applied
+  Mathematics \& Information Sciences}, 6(3), pp. 915-924,
+2012.
+\section{Refereed\\Non-Archival\\Publications}
+Tianyi Gu, Wheeler Ruml, Shahaf Shperberg, Eyal Shlomo Shimony, and Erez Karpas, ``When to Commit to an Action in Online Planning''. {\sl Proceedings of the ICAPS Workshop on Integrating, Planning, Acting, and Execution (IntEx-21)}, 2021.\\~\\
+Maximilian Fickert, Tianyi Gu, Leonhard Staut, Sai Lekyang, Wheeler Ruml, Joerg Hoffmann, and Marek Petrik, ``Real-time Planning as Data-driven Decision-making.'' {\sl Proceedings of the ICAPS Workship on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL-20)}, 2020.\\~\\
+Tianyi Gu, Momotaz Begum, Naiqian Zhang, Dongpeng Xu, Sajay Arthanat, and Dain P. LaRoche, ``An Adaptive Software Framework for Dementia-care Robots.'' {\sl Proceedings of the ICAPS Workshop on Planning and Robotics (PlanRob-20)}, 2020. \\~\\
+Bence Cserna, Wiliam J. Doyle, Tianyi Gu, and Wheeler Ruml, ``Safe
+Temporal Planning for Urban Driving,'' {\sl Proceedings of the AAAI
+Workshop on Artificial Intelligence Safety (SafeAI-19)}, 2019.
+\section{Patents}
+Bence Cserna, Tianyi Gu, Eric Wolff, Elena Corina Grigore, and Mochan Shrestha, ``Driving Data Guided Spatial Planning'', US patent 20220290997A1, issued September, 2022.\\~\\
+Jingkai Chen, Tianyi Gu, Petro Havryliuk, Serhii Myhun, 
+Dhanvi Sreenivasan, and Tianpeng Zhang, ``System and Method for Priority Based Management of Autonomous Vehicle Fleet'', US patent 1127P017176US-1, filed in April, 2025. \\~\\ 
+Jingkai Chen, Tianyi Gu, Petro Havryliuk, Serhii Myhun, 
+Dhanvi Sreenivasan, and Tianpeng Zhang, ``Planning Large-Scale Symbotic Bot Fleets via Divide-and-Conquer'', US patent application in preparation, expected submission in November, 2025. \\~\\ 
+Jingkai Chen, Tianyi Gu, Petro Havryliuk, Serhii Myhun, 
+Dhanvi Sreenivasan, and Tianpeng Zhang, ``Planning Large-Scale Symbotic Bot Fleets via Divide-and-Conquer'', US patent application in preparation, expected submission in November, 2025. \\~\\ 
+
+%-----------------------------------------------------------------------
+%	Talks
+%-----------------------------------------------------------------------
+\section{Invited Talks}
+``Planning Under Time Pressure as Decision-making Under Uncertainty"\\
+\-\hspace{0.5cm} Boston Dynamic, 2022\\~\\
+``Planning Under Time Pressure as Decision-making Under Uncertainty"\\
+\-\hspace{0.5cm} Kodiak Robotics, 2022\\~\\
+``New Results in Bounded-Suboptimal Search"\\
+\-\hspace{0.5cm} AAAI Conference on Artificial Intelligence (AAAI), 2022\\~\\
+``When to Commit to an Action in Online Planning and Search"\\
+\-\hspace{0.5cm} International Symposium on Combinatorial Search (SoCS), 2022\\~\\
+``Metareasoning for Heuristic Search Using Uncertainty"\\
+\-\hspace{0.5cm} University of New Hampshire, 2021\\~\\
+``Bounded-Cost Search Using Estimates of Uncertainty"\\
+\-\hspace{0.5cm}  International Joint Conference on Artificial Intelligence (IJCAI), 2021\\~\\
+``Distributional Metareasoning for Heuristic Search"\\
+\-\hspace{0.5cm}  International Joint Conference on Artificial Intelligence (IJCAI), 2021\\~\\
+``Tips for Surviving Graduate School and Getting A Job"\\
+\-\hspace{0.5cm} University of New Hampshire, 2021\\~\\
+``Planning Under Time Pressure as Decision-making Under Uncertainty"\\
+\-\hspace{0.5cm} IBM Thomas J. Watson Research Center, 2021\\~\\
+``Planning Under Time Pressure as Decision-making Under Uncertainty"\\
+\-\hspace{0.5cm} University of Central Oklahoma, 2021\\~\\
+``Planning Under Time Pressure as Decision-making Under Uncertainty"\\
+\-\hspace{0.5cm} Optimus Ride, 2021\\~\\
+``Beliefs We Can Believe In: Replacing Assumptions with Data in Real-Time Search"\\
+\-\hspace{0.5cm} AAAI Conference on Artificial Intelligence (AAAI), 2020\\~\\
+``Real-time Planning as Data-driven Decision-making"\\
+\-\hspace{0.5cm} ICAPS Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL), 2020\\~\\
+``An Adaptive Software Framework for Dementia-care Robots"\\
+\-\hspace{0.5cm} ICAPS Workshop on Planning and Robotics (PlanRob), 2020\\~\\
+``Online Anytime Planning for Autonomous Vehicles"\\
+\-\hspace{0.5cm} University of New Hampshire, 2018\\~\\
+``An Effort Bias for Sampling-based Motion Planning"\\
+\-\hspace{0.5cm} EEE/RSJ Conference on Intelligent Robots and Systems (IROS), 2017\\~\\
+``An Effort Bias for Sampling-based Motion Planning"\\
+\-\hspace{0.5cm} University of New Hampshire, 2017\\~\\
+``An Effort Bias for Sampling-based Motion Planning"\\
+\-\hspace{0.5cm} Real-time Robotics, 2017
+
+% 2017 Invited lecture at the University of New Hampshire's Robotics Seminar Series
+
+%-----------------------------------------------------------------------
+%	Professional Activities
+%-----------------------------------------------------------------------
+\section{Professional Activities}
+
+{\sl Conference Reviewing}\\
+International Joint Conference on Artificial Intelligence \hfill 2025, 6 reviews\\
+IEEE International Conference on Robotics and Automation \hfill 2024, 1 reviews\\
+AAAI Conference on Artificial Intelligence \hfill 2023, 5 reviews\\
+International Joint Conference on Artificial Intelligence \hfill 2023, 5 reviews\\
+International Joint Conference on Artificial Intelligence  \hfill 2022, 5 reviews\\
+International Conference on Social Robotics \hfill 2020, 2 reviews\\
+ACM/IEEE International Conference on Human-Robot Interaction \hfill 2019, 2 reviews\\~\\
+%---
+{\sl Membership}\\
+Association for the Advancement of Artificial Intelligence (long-term member as of 2025)\\
+
+
+%-----------------------------------------------------------------------
+%	Awards
+%-----------------------------------------------------------------------
+%\section{Awards}
+
+% National Science Foundation Doctoral Consortium Travel
+% Award \hfill 2017\\
+%Shanghai Outstanding Graduate \hfill 2012
+% Shanghai Maritime University Outstanding Graduate \hfill 2012\\
+% China National Graduate Mathematic Contest in Modeling: 2nd Place \hfill 2011\\
+% Shanghai Maritime University Excellent Student Scholarship:
+% 1st Place \hfill 2007
+
+%-----------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%-----------------------------------------------------------------------
+
+%\section{Extra-curricular \\ Activities} 
+\section{University\\Activities} 
+Co-founder and Vice President of Artificial Intelligence Student Organization \hfill 2017--2021
+Co-founder and Vice President of Shanghai Tongji Table Tennis Club \hfill 2005--2015\\
+Vice President of Shanghai College Students Table Tennis Association \hfill 2008--2010\\
+President of Association for Table Tennis and Badminton at SMU \hfill 2008--2010
+
+
+%-----------------------------------------------------------------------
+%	Citizenship
+%-----------------------------------------------------------------------
+
+\section{Citizenship} 
+China. \\
+US visa: H1-b.
+%-----------------------------------------------------------------------
+
+\end{resume}
+\end{document}

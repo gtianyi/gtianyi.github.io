@@ -1,0 +1,66 @@
+[
+    {
+        "company": "Symbotic",
+        "company_location": "",
+        "role": "Staff Software Engineer",
+        "team": "",
+        "time_duration": "January 2026--Current",
+        "details": [
+            {
+                "title": "",
+                "description": "Designed and implemented charge-aware routing for warehouse robot fleets, replacing interruption-based e-charge tasks with a planning-based strategy that keeps multi-agent pickup and delivery energy-safe by charging on floor chargers during task dwell and traffic waits, and sends a bot to a charger only when uncertainty makes energy use deviate from the original plan."
+            }
+        ]
+    },
+    {
+        "company": "Symbotic",
+        "company_location": "",
+        "role": "Senior Software Engineer",
+        "team": "",
+        "time_duration": "September 2024--December 2025",
+        "details": [
+            {
+                "title": "",
+                "description": "The main contributor to the TSR Executive project, designed and implemented a concurrent planning and execution framework for robotic fleets, resulting in a 50$+\\%$ increase in throughput for high-volume pick-and-place tasks across 21 Walmart distribution centers nationwide, significantly impacting the efficiency of modern supply chains."
+            }
+        ]
+    },
+    {
+        "company": "Motional",
+        "company_location": "",
+        "role": "Senior Software Engineer",
+        "team": "",
+        "time_duration": "January 2023--July 2024",
+        "details": [
+            {
+                "title": "",
+                "description": "Member of the motion planning and autonomy integration team that works on AV driverless launch and new city deployment."
+            },
+            {
+                "title": "",
+                "description": "Build an ODD-aware routing system to support driverless launch and commercial launch."
+            },
+            {
+                "title": "",
+                "description": "Build the Route Engine that generates a Geonet for AV fleet public road testing and data collection."
+            }
+        ]
+    },
+    {
+        "company": "Argo AI",
+        "company_location": "",
+        "role": "Software Engineer II",
+        "team": "",
+        "time_duration": "February 2022--December 2022",
+        "details": [
+            {
+                "title": "",
+                "description": "Member of the motion planning team that designs, builds, tests, and deploys a safety-critical trajectory generator for autonomous vehicles."
+            },
+            {
+                "title": "",
+                "description": "Develop an ML-based and rule-based hybrid approach for high-level behavior action scoring."
+            }
+        ]
+    }
+]
